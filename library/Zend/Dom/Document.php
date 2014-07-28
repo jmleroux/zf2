@@ -43,6 +43,12 @@ class Document
     protected $type;
 
     /**
+     * Document encoding
+     * @var string
+     */
+    protected $encoding;
+
+    /**
      * Error list generated from transformation of document to DOMDocument
      * @var array
      */
